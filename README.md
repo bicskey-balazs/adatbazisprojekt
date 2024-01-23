@@ -40,36 +40,36 @@ felesleges mezőt ne jelenítsen meg!
 A lista méret szerint csökkenően, és azon belül név szerint ábécésorrendben jelenjen meg! 
 (**3olcso**) 
 
-4.  Milyen nevű és milyen méretű pizzából kellett a legtöbbet sütni az összes megrendelés 
+**4.**  Milyen nevű és milyen méretű pizzából kellett a legtöbbet sütni az összes megrendelés 
 alapján?  Adja  meg  lekérdezés  segítségével  a  pizza  nevét,  méretét  és  a  darabszámát! 
 (**4nepszeru**)
 
-5.  Sorolja fel lekérdezés segítségével, hogy a pizzák neve és mérete szerint 18 és 19 óra közötti 
+**5.**  Sorolja fel lekérdezés segítségével, hogy a pizzák neve és mérete szerint 18 és 19 óra közötti 
 szállításra (az időhatárokat is beleértve) hány darab pizzára vettek fel rendelést! (**5esti**)
 
-6.  Egészítse ki a zárójelben a lekérdezést úgy, hogy azoknak a pizzáknak a nevét adja meg, 
+**6.**  Egészítse ki a zárójelben a lekérdezést úgy, hogy azoknak a pizzáknak a nevét adja meg, 
 amelyekből  mindhárom  méretben  volt  rendelés!  A  kiegészített  lekérdezést  mentse! 
 (**6jolfogy**)
 
-> SELECT nev 
+> *SELECT nev*
 
-> FROM pizza
+> *FROM pizza*
 
-WHERE id IN ( ... ) 
+> *WHERE id IN ( ... )*
 
-GROUP BY nev 
+> *GROUP BY nev*
 
-HAVING Count(meret)=3;`
+>*HAVING Count(meret)=3;*
 
 A fenti lekérdezés szövege a források között a *6alap.sql* fájlban megtalálható.
 
-7.  Ha egy időpontban háromnál több darab pizzát szállít egy címre a futár, akkor a cég egy 
+**7.**  Ha egy időpontban háromnál több darab pizzát szállít egy címre a futár, akkor a cég egy 
 ajándék üdítőitallal lepi meg a rendelőt. Lekérdezés segítségével sorolja fel a szállítási idő, 
-név, utca és házszám adatokat, ahova a futárnak üdítőitalt is vinnie kell! (7reklam)
+név, utca és házszám adatokat, ahova a futárnak üdítőitalt is vinnie kell! (**7reklam**)
 
-8.  Készítsen  jelentést  amely  megadja,  hogy  a  rendelési  címeken  mennyit  kell  fizetni 
+**8.** Készítsen  jelentést  amely  megadja,  hogy  a  rendelési  címeken  mennyit  kell  fizetni 
 a kiszállítás  időpontjában!  Vegye  figyelembe,  hogy  ha  egy  adott  szállítási  időpontban 
 a rendelő személye azonos, akkor az összeget egyszerre fizetik ki! A jelentés létrehozását 
 lekérdezéssel készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet 
 és a mezőnevek megjelenítését vegye figyelembe! A jelentés formázásában a mintától 
-eltérhet. (8osszeg)
+eltérhet. (**8osszeg**)
