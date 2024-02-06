@@ -40,7 +40,7 @@ a `*pizza.txt,*` a `*rendeles.txt*` és a `*cim.txt*` állományban.
 | utca | string | A rendelési cím utcája ||
 | hsz | string | A rendelési cím házszáma ||
 
-![Kép a kapcsolatokról](diagram.PNG)
+![Kép a kapcsolatokról](diagramm.PNG)
 
 ## **2.feladat**
   Állítsa be, hogy a `*pizza*` tábla ar mezője tizedesjegyek nélkül, „==Ft==” mértékegységgel jelenjen 
