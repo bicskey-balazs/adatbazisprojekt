@@ -92,3 +92,8 @@ a rendelő személye azonos, akkor az összeget egyszerre fizetik ki! A jelenté
 lekérdezéssel készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet 
 és a mezőnevek megjelenítését vegye figyelembe! A jelentés formázásában a mintától 
 eltérhet. **(8osszeg)**
+
+---
+
+Az eredeti feladat: [Pizzafutár.pdf](http://informatika.fazekas.hu/wp-content/uploads/2015/10/e_adatb_2018_id.pdf)
+<br>
