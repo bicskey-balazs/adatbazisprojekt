@@ -1,7 +1,9 @@
-CREATE DATABASE Pizzafutár 
+﻿DROP DATABASE IF EXISTS pizzeria;
+
+CREATE DATABASE pizzeria 
 DEFAULT CHARACTER SET utf8
 COLLATE utf8_hungarian_ci;
- use Pizzafutár;create table cim(id int(11)  ,nev varchar(100)  ,utca varchar(100)  ,hsz varchar(100)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+ use pizzeria;create table cim(id int(11)  ,nev varchar(100)  ,utca varchar(100)  ,hsz varchar(100)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
  
 ALTER TABLE cim ADD PRIMARY KEY(id);
  INSERT INTO cim VALUES
