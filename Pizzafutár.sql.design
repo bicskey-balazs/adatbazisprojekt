@@ -14,7 +14,7 @@
       <PropertyValue Name="ConnectionString" xml:space="preserve">User Id=root;Host=localhost;Port=3306</PropertyValue>
       <PropertyValue Name="ExecutionTimeout">0</PropertyValue>
     </ConnectionModel>
-    <Database>Pizzafutar</Database>
+    <Database>pizzeria</Database>
   </Connection>
   <Views ShowAdditionalViews="False" IsLayoutActiveAttribute="True" MainViewAttribute="Code" MainViewScale="64">
     <View Name="Design" Visible="False" />

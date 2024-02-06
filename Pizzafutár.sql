@@ -3,10 +3,10 @@
 CREATE DATABASE pizzeria 
 DEFAULT CHARACTER SET utf8
 COLLATE utf8_hungarian_ci;
- use pizzeria;create table cim(id int(11)  ,nev varchar(100)  ,utca varchar(100)  ,hsz varchar(100)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+ use pizzeria;create table cimek(id int(11)  ,nev varchar(100)  ,utca varchar(100)  ,hsz varchar(100)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
  
-ALTER TABLE cim ADD PRIMARY KEY(id);
- INSERT INTO cim VALUES
+ALTER TABLE cimek ADD PRIMARY KEY(id);
+ INSERT INTO cimek VALUES
 ( 1,"Skvar Tamás","Rezeda utca","56/b"),
 ( 2,"Tatár István","Beszédes József sétány","3"),
 ( 3,"Siket Karen","Arany János utca","50"),
@@ -395,10 +395,10 @@ ALTER TABLE cim ADD PRIMARY KEY(id);
 ( 386,"Veres Eszter","Csúszda utca","55"),
 ( 387,"Urbán Dóra","Gyufa utca","61"),
 ( 388,"Tóth András","Beszédes József sétány","22");
-create table pizza(id int(11)  ,nev varchar(100)  ,meret int(11)  ,ar int(11)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+create table pizzak(id int(11)  ,nev varchar(100)  ,meret int(11)  ,ar int(11)  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
  
-ALTER TABLE pizza ADD PRIMARY KEY(id);
- INSERT INTO pizza VALUES
+ALTER TABLE pizzak ADD PRIMARY KEY(id);
+ INSERT INTO pizzak VALUES
 ( 1,"4 sajtos",22,1150),
 ( 2,"4 sajtos",30,1450),
 ( 3,"4 sajtos",45,2850),
@@ -516,10 +516,10 @@ ALTER TABLE pizza ADD PRIMARY KEY(id);
 ( 115,"Wellness",22,1250),
 ( 116,"Wellness",30,1550),
 ( 117,"Wellness",45,2950);
-create table rendeles(id int(11)  ,pizzaid int(11)  ,darab int(11)  ,cimid int(11)  ,szallitas time  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
- ALTER TABLE rendeles ADD INDEX(pizzaid);ALTER TABLE rendeles ADD INDEX(cimid);
-ALTER TABLE rendeles ADD PRIMARY KEY(id);
- INSERT INTO rendeles VALUES
+create table rendelesek(id int(11)  ,pizzakid int(11)  ,darab int(11)  ,cimekid int(11)  ,szallitas time  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+ ALTER TABLE rendelesek ADD INDEX(pizzakid);ALTER TABLE rendelesek ADD INDEX(cimekid);
+ALTER TABLE rendelesek ADD PRIMARY KEY(id);
+ INSERT INTO rendelesek VALUES
 ( 1,24,1,139,"10:05:00"),
 ( 2,95,1,244,"10:10:00"),
 ( 3,99,1,97,"10:10:00"),
@@ -934,4 +934,4 @@ ALTER TABLE rendeles ADD PRIMARY KEY(id);
 ( 412,16,1,250,"21:55:00"),
 ( 413,35,1,163,"21:55:00"),
 ( 414,4,3,299,"21:55:00");
-ALTER TABLE `rendeles` ADD CONSTRAINT `rendeles_41`   FOREIGN KEY (`pizzaid`)     REFERENCES `pizza` (`id`);ALTER TABLE `rendeles` ADD CONSTRAINT `rendeles_51`   FOREIGN KEY (`cimid`)     REFERENCES `cim` (`id`);
+ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_41`   FOREIGN KEY (`pizzakid`)     REFERENCES `pizzak` (`id`);ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_51`   FOREIGN KEY (`cimekid`)     REFERENCES `cimek` (`id`);
