@@ -516,8 +516,8 @@ ALTER TABLE pizzak ADD PRIMARY KEY(id);
 ( 115,"Wellness",22,1250),
 ( 116,"Wellness",30,1550),
 ( 117,"Wellness",45,2950);
-create table rendelesek(id int(11)  ,pizzakid int(11)  ,darab int(11)  ,cimekid int(11)  ,szallitas time  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
- ALTER TABLE rendelesek ADD INDEX(pizzakid);ALTER TABLE rendelesek ADD INDEX(cimekid);
+create table rendelesek(id int(11)  ,pizzaid int(11)  ,darab int(11)  ,cimekid int(11)  ,szallitas time  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
+ ALTER TABLE rendelesek ADD INDEX(pizzaid);ALTER TABLE rendelesek ADD INDEX(cimekid);
 ALTER TABLE rendelesek ADD PRIMARY KEY(id);
  INSERT INTO rendelesek VALUES
 ( 1,24,1,139,"10:05:00"),
@@ -934,4 +934,4 @@ ALTER TABLE rendelesek ADD PRIMARY KEY(id);
 ( 412,16,1,250,"21:55:00"),
 ( 413,35,1,163,"21:55:00"),
 ( 414,4,3,299,"21:55:00");
-ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_41`   FOREIGN KEY (`pizzakid`)     REFERENCES `pizzak` (`id`);ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_51`   FOREIGN KEY (`cimekid`)     REFERENCES `cimek` (`id`);
+ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_41`   FOREIGN KEY (`pizzaid`)     REFERENCES `pizzak` (`id`);ALTER TABLE `rendelesek` ADD CONSTRAINT `rendelesek_51`   FOREIGN KEY (`cimekid`)     REFERENCES `cimek` (`id`);

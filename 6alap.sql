@@ -1,5 +1,5 @@
-SELECT nev
-FROM pizza
-WHERE id IN ( … )
+﻿SELECT nev
+FROM pizzak
+WHERE id IN ( SELECT pizzaid FROM rendelesek )
 GROUP BY nev
 HAVING Count(meret)=3; 
