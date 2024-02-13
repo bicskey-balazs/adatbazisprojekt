@@ -1,4 +1,5 @@
-select szallitas, nev, utca, hsz
+SELECT pizzaid, darab, nev, meret
 FROM rendelesek
-INNER JOIN cimek ON rendelesek.cimid = cimek.id
-WHERE darab > 3;
+INNER JOIN pizzak ON rendelesek.pizzaid = pizzak.id
+ORDER BY darab DESC
+LIMIT 1;
