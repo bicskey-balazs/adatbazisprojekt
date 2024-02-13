@@ -43,10 +43,12 @@ a `*pizza.txt,*` a `*rendeles.txt*` és a `*cim.txt*` állományban.
 ![Kép a kapcsolatokról](diagramm.PNG)
 
 ## **2.feladat**
-  Illessze be az 5 sajtos, csak 22es méretben kapható, 1200 FT árú új pizzát a `*pizzak*` táblába!
+  Illessze be az 5 sajtos, csak 22es méretben kapható, 1200 Ft árú új pizzát a `*pizzak*` táblába!
+
 ## **3.feladat**
 
 ## **4.feladat**
+  Törölje ki az 5000 Ft-nál drágább pizzákat a `*pizzak*` táblából!
 
 ## **5.feladat**
   Állítsa be, hogy a `*pizzak*` tábla ar mezője tizedesjegyek nélkül, „==Ft==” mértékegységgel jelenjen 

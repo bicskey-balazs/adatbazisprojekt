@@ -515,7 +515,8 @@ ALTER TABLE pizzak ADD PRIMARY KEY(id);
 ( 114,"Vezúv",45,2850),
 ( 115,"Wellness",22,1250),
 ( 116,"Wellness",30,1550),
-( 117,"Wellness",45,2950);
+( 117,"Wellness",45,2950),
+( 119,"6 sajtos",22,5005);
 create table rendelesek(id int(11)  ,pizzaid int(11)  ,darab int(11)  ,cimid int(11)  ,szallitas time  ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_hungarian_ci;
  ALTER TABLE rendelesek ADD INDEX(pizzaid);ALTER TABLE rendelesek ADD INDEX(cimid);
 ALTER TABLE rendelesek ADD PRIMARY KEY(id);

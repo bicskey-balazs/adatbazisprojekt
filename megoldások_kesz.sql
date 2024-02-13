@@ -8,7 +8,7 @@ INSERT INTO pizzak VALUES
 
 
 -- 4. feladat:
-
+DELETE FROM pizzak WHERE ar > 5000;
 
 -- 5. feladat:
 
