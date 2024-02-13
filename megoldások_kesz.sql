@@ -5,7 +5,9 @@ INSERT INTO pizzak VALUES
 ( 118,"5 sajtos",22,1200);
 
 -- 3. feladat:
-
+UPDATE pizzak
+SET ar = ar + 500
+WHERE nev LIKE '%5%';
 
 -- 4. feladat:
 DELETE FROM pizzak WHERE ar > 5000;

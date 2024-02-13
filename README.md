@@ -46,6 +46,7 @@ a `*pizza.txt,*` a `*rendeles.txt*` és a `*cim.txt*` állományban.
   Illessze be az 5 sajtos, csak 22es méretben kapható, 1200 Ft árú új pizzát a `*pizzak*` táblába!
 
 ## **3.feladat**
+  Állítsa be, hogy az összes olyan pizza a `*pizzak*` táblából amelynek a nevében szerepel az "5" ára 500 Ft-al nőjön!
 
 ## **4.feladat**
   Törölje ki az 5000 Ft-nál drágább pizzákat a `*pizzak*` táblából!
