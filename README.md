@@ -97,11 +97,9 @@ ajándék üdítőitallal lepi meg a rendelőt. Lekérdezés segítségével sor
 név, utca és házszám adatokat, ahova a futárnak üdítőitalt is vinnie kell! **(7reklam)**
 
 ## **11.feladat**
- Készítsen  jelentést  amely  megadja,  hogy  a  rendelési  címeken  mennyit  kell  fizetni 
+ Készítsen  lekérdezést  amely  megadja,  hogy  a  rendelési  címeken  mennyit  kell  fizetni 
 a kiszállítás  időpontjában!  Vegye  figyelembe,  hogy  ha  egy  adott  szállítási  időpontban 
-a rendelő személye azonos, akkor az összeget egyszerre fizetik ki! A jelentés létrehozását 
-lekérdezéssel készítse elő! A jelentés elkészítésekor a mintából a mezők sorrendjét, a címet 
-és a mezőnevek megjelenítését vegye figyelembe! A jelentés formázásában a mintától 
+a rendelő személye azonos, akkor az összeget egyszerre fizetik ki! A lekérdezés formázásában a mintától 
 eltérhet. **(8osszeg)**
 
 ---
