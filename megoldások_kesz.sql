@@ -13,7 +13,10 @@ WHERE nev LIKE '%5%';
 DELETE FROM pizzak WHERE ar > 5000;
 
 -- 5. feladat:
-
+ALTER TABLE pizzak MODIFY ar varchar(100);
+UPDATE pizzak
+SET ar = CONCAT(ar, ' Ft');
+SELECT * FROM pizzak;
 
 -- 6. feladat:
 SELECT ar, nev, meret
