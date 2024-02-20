@@ -54,7 +54,7 @@ a `*pizza.txt,*` a `*rendeles.txt*` és a `*cim.txt*` állományban.
 ## **5.feladat**
   Állítsa be, hogy a `*pizzak*` tábla ar mezője tizedesjegyek nélkül, „==Ft==” mértékegységgel jelenjen 
 meg! 
-A következő feladatok megoldásánál a lekérdezéseket és a jelentést a zárójelben olvasható 
+A következő feladatok megoldásánál a lekérdezéseket és a lekérdezést a zárójelben olvasható 
 néven mentse! Ügyeljen arra, hogy a lekérdezésekben pontosan a kívánt mezők szerepeljenek, 
 felesleges mezőt ne jelenítsen meg!
 
