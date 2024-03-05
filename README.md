@@ -1,7 +1,7 @@
 # **3. Pizzafutár**
 
    Egy kisvárosi pizzafutár-vállalkozásnál a telefonos rendelések alapján adatbázist hoznak 
-létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre. Ez az adatbázis a jelölt pizzákat tartalmazza.
+létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre.
 
 ## **1.feladat**
 Futtassa le a Pizzafutár.sql állományt az alábbi táblák(pizzak, rendelesek, cimek) létrehozásához és feltöltéséhez.
