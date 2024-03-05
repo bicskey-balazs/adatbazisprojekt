@@ -1,8 +1,7 @@
 # **3. Pizzafutár**
 
    Egy kisvárosi pizzafutár-vállalkozásnál a telefonos rendelések alapján adatbázist hoznak 
-létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre 
-a `*pizza.txt,*` a `*rendeles.txt*` és a `*cim.txt*` állományban.
+létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre.
 
 ## **1.feladat**
  Készítsen  új  adatbázist  `pizzeria`  néven!  A  mellékelt  állományokat  importálja 
