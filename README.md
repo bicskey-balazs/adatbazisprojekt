@@ -1,13 +1,10 @@
 # **3. Pizzafutár**
 
    Egy kisvárosi pizzafutár-vállalkozásnál a telefonos rendelések alapján adatbázist hoznak 
-létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre.
+létre. A választható pizzák és egy adott nap megrendeléseinek néhány adata áll rendelkezésre. Ez az adatbázis a jelölt pizzákat tartalmazza.
 
 ## **1.feladat**
- Készítsen  új  adatbázist  `pizzeria`  néven!  A  mellékelt  állományokat  importálja 
- az adatbázisba  a  fájlnévvel  azonos  táblanéven!  Az  állományok  tabulátorral  tagolt, 
- UTF-8 kódolású szövegfájlok, az első soruk a mezőneveket tartalmazza. A létrehozás során 
- állítsa be a megfelelő típusokat és a kulcsokat!
+Futtassa le a Pizzafutár.sql állományt az alábbi táblák(pizzak, rendelesek, cimek) létrehozásához és feltöltéséhez.
 
 ## **Táblák:**
 #### 1. `pizzak` (id, nev, meret, ar) 
@@ -40,6 +37,10 @@ létre. A választható pizzák és egy adott nap megrendeléseinek néhány ada
 | hsz | string | A rendelési cím házszáma ||
 
 ![Kép a kapcsolatokról](diagramm.PNG)
+
+A következő feladatokat megoldó SQL parancsokat rögzítse a megoldások.sql állományban a feladatok végén zárójelben jelölt sor alá! A javítás során csak ennek az állománynak a tartalmát értékelik.
+
+Ügyeljen arra, hogy a lekérdezésekben pontosan a kívánt mezők szerepeljenek, felesleges mezőt ne jelenítsen meg!
 
 ## **2.feladat**
   Illessze be az 5 sajtos, csak 22es méretben kapható, 1200 Ft árú új pizzát a `*pizzak*` táblába!
