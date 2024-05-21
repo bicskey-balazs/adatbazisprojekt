@@ -70,21 +70,9 @@ alapján?  Adja  meg  lekérdezés  segítségével  a  pizza  nevét,  méreté
 szállításra (az időhatárokat is beleértve) hány darab pizzára vettek fel rendelést! **(5esti)**
 
 ## **9.feladat** 
- Egészítse ki a zárójelben a lekérdezést úgy, hogy azoknak a pizzáknak a nevét adja meg, 
+ Készítsen lekérdezést úgy, hogy azoknak a pizzáknak a nevét adja meg, 
 amelyekből  mindhárom  méretben  volt  rendelés!  A  kiegészített  lekérdezést  mentse! 
 **(6jolfogy)**
-
-```sql
-SELECT nev
-
-FROM pizza
-
-WHERE id IN ( ... )
-
-GROUP BY nev
-
-HAVING Count(meret)=3;
-```
 
 A fenti lekérdezés szövege a források között a `*6alap.sql*` fájlban megtalálható.
 
