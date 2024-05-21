@@ -1,1 +1,0 @@
-DELETE FROM pizzak WHERE ar > 5000;
